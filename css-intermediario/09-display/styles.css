@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+.em-bloco li {
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+    /* ja vem display: block; por padrão */
+}
+
+.em-linha li {
+    display: inline;
+    /* nao da pra colocar largura ou altura */
+    background: aqua;
+}
+
+.em-linha-e-bloco li {
+    display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.escondido {
+    display: none;
+    /* esconder os elementos pai */
+}
