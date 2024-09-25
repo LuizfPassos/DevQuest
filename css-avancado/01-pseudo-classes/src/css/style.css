@@ -1,0 +1,30 @@
+/* escopo */
+/* seletor:pseudo-classe {
+    propriedade: valor
+} */
+
+p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: yellowgreen;
+}
+
+li:nth-child(n+1):nth-child(-n+3) {
+    color: red;
+    /* odd = impar | even = par */
+    /* 3n estiliza de 3 em 3 */
+}
+
+li:nth-last-child(1){
+    color: red;
+}
+
+p:only-child {
+    color: red;
+}
