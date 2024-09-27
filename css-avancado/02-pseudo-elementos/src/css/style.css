@@ -1,0 +1,35 @@
+/* ----------- estrutura ---------- */
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+
+.First-Letter::first-letter{
+    color: coral;
+}
+
+.First-Line::first-line {
+    color: coral;
+}
+
+.First-Line::first-letter {
+    color: blue;
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+.before::before {
+    /* content: url(../images/favicon-32x32.png); */
+    /* posso colocar qualquer coisa como texto */
+    content: "";
+    background: url(../images/favicon-32x32.png) center center no-repeat;
+    width: 80px; /*melhor o tamanho da imagem certinho*/
+    height: 80px;
+    display: inline-block; /*precisa dessa prorpiedade para aparecer a imagem*/
+}
+
+.after::after {
+    content: url(../images/favicon-32x32.png);
+}

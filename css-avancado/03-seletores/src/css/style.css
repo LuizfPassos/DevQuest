@@ -1,0 +1,51 @@
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    color: blueviolet;
+}
+
+#menu {
+    margin-left: 100px;
+    /* melhor usar com javascript do que com estilização */
+}
+
+* {
+    /* estiliza todos os elementos HTML */
+    padding: 0;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+p, span {
+    /* evita código duplicado */
+    font-size: 25px;
+}
+
+.sobre .texto {
+    color: palevioletred;
+}
+
+div > p {
+    color: purple;
+}
+
+div + p {
+    color: royalblue;
+}
+
+a[target=_blank] {
+    color: red;
+}
