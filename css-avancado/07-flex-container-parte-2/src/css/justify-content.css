@@ -1,0 +1,25 @@
+.flex-start {
+    justify-content: flex-start;
+    /* flex-start é o padrão */
+}
+
+.flex-end {
+    justify-content: flex-end;
+    /* flex-start é o padrão */
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
